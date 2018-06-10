@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+
+
+
+
+#header2-0 H1 {
+  color: #0275d8;
+}
+#header2-0 P {
+  color: #000000;
+}
+#content5-2 P {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#content5-9 P {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+#content5-a P {
+  font-family: 'Bitter', serif;
+}
+#contacts1-4 UL {
+  color: #f1c050;
+}
+#menu-7 .navbar-toggler {
+  color: #000000;
+}
+#menu-7 .nav-link {
+  font-family: 'Montserrat', sans-serif;
+}

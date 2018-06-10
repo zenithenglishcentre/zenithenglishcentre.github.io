@@ -1,0 +1,442 @@
+{
+  "settings": {
+    "name": "Site-12-14_1255",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": []
+    },
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 18,
+    "versionPublish": "3.11.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            "H1": {
+              "color": "#0275d8"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "header2-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
+            "bgColor": "#bbe8cc",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "Zenith English Centre",
+          "text": "Un instituto diferente con una enseñanza diferente",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#header3-1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Learn More / Mas</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
+          "_anchor": "content5-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "El Directorio",
+          "caption": "<p>El Zenith English Centre es un nuevo concepto en la enseñanza del idioma Inglès. Cuenta con un director britanico con mchos años de experiencia en la enseñanza del idioma en varios importantes colegios e institutos de Asunciòn. Nuestro director tambien cuenta con certificados internacionales que avalan su conocimiento extenso del idioma. El profesorado ha sido cuidadosamente seleccionado para asegurar una enseñanza optima.</p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "content5-9",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "Nuestra filosofìa",
+          "caption": "<p>La filosofìa del Zenith English Centre se refleja en su lema \"Un instituto diferente con una enseñanza diferente\". Esto implica una enseñanza dinamica e interactiva diseñada a satisfacer las necesidades de cada alumno. Nuestra atencion esta orientada hacia el pleno aprendizaje y utilizacion del idioma por parte de los alumnos en la brevedad posible de acuerdo al programa en estudio. Para ello las clases son personalizadas, donde los grupos de estudio estan conformados por un reducido numero de estudiantes a efectos de lograr una mayor atencion individual.&nbsp;</p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            "P": {
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
+            }
+          },
+          "_anchor": "content5-a",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1842x1080.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "El ambiente",
+          "caption": "<p>Se contempla un ambiente acogedor que va mas alla de una simple clase de Ingles brindando a los estudiantes la posibilidad de usufructuar la denominadas \"Horas de consulta\" en las cuales pueden consultar con los profesores sobre cualquier duda o tema fuera del aula y fuera de la hora de clase tanto como disfrutar o participar en un excelente evento cultural o recreativo. Tambien pueden consultar nuestra amplia biblioteca actual y virtual.</p>"
+        },
+        {
+          "_inherit": "gallery1",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/trained-education-agent-2018-zenith-593x593-593x593.png",
+                "image": "@PROJECT_PATH@/assets/images/trained-education-agent-2018-zenith-593x593.png",
+                "alt": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/classroom-150x150-150x150.jpg",
+                "image": "@PROJECT_PATH@/assets/images/classroom-150x150.jpg",
+                "alt": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/office-200x200-200x200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/office-200x200.jpg",
+                "alt": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01551-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01551-2000x1500.jpg",
+                "alt": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01550-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01550-2000x1500.jpg",
+                "alt": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01549-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01549-2000x1500.jpg",
+                "alt": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/preparation-centre-1-rgb-513-860x235-800x218.jpg",
+                "image": "@PROJECT_PATH@/assets/images/preparation-centre-1-rgb-513-860x235.jpg",
+                "alt": "",
+                "active": true
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "gallery2-8",
+          "articleLayout": true
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-e",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#bbe8cc",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": false
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://www.cambridgeenglish.org/exams-and-tests/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Start a Journey</a>",
+          "title": "Preparacion para los examenes de Cambridge",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-h",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/preparation-centre-1-rgb-512-860x235.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": ""
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-6",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#bbe8cc",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Contact Form",
+          "form": {
+            "action": "martin@romano.org",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success-outline btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-3",
+          "_params": {
+            "googleMap": {
+              "address": "Zenith English Centre\n",
+              "placeId": "ChIJV6-c_3yuXZQR5oznM1a4ExE",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "UL": {
+              "color": "#f1c050"
+            }
+          },
+          "_anchor": "contacts1-4",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-zenith-small-130x129.jpg",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>Mcal. Estigarribia 2531<br>e/ Saturio Rios y Gral. Genes<br>San Lorenzo",
+          "text2": "<strong>Contacts</strong><br>\nEmail: zenithenglishcentre@gmail.com<br>\nPhone: 0972-139417<br>WhatsApp: 0972-139417",
+          "text3": "<strong>Affilliate Links</strong><ul><li>Genealogia Paraguaya</li><li><a href=\"http://www.cicgpy.github.io\" target=\"_blank\">Centro </a>de Investigacion y Capacitacion Genealogica - Paraguay</li><li><br></li></ul>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".nav-link": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "menu-7",
+          "_params": {
+            "hamburgerColor": "#000000",
+            "sticky": false,
+            "transparent": true,
+            "color": "#000000",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-zenith-small-128x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://www.facebook.com/Zenith-English-Centre",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"mailto:zenithenglishcentre@gmail.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zenith English Centre</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://zenithenglish.com\" target=\"_blank\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#content5-2\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#contacts1-4\">Contact</a></li>"
+        }
+      ]
+    }
+  }
+}
