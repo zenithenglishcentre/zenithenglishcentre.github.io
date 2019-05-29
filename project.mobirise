@@ -9,7 +9,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 19,
+    "uniqCompNum": 20,
     "versionPublish": "4.10.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -99,7 +99,7 @@
             "overlayOpacity": 0.7
           },
           "title": "El Directorio",
-          "caption": "<p>El Zenith English Centre es un nuevo concepto en la enseñanza del idioma Inglès. Cuenta con un director britanico con mchos años de experiencia en la enseñanza del idioma en varios importantes colegios e institutos de Asunciòn. Nuestro director tambien cuenta con certificados internacionales que avalan su conocimiento extenso del idioma. El profesorado ha sido cuidadosamente seleccionado para asegurar una enseñanza optima.</p>"
+          "caption": "<p>El Zenith English Centre es un nuevo concepto en la enseñanza del idioma Inglès. Cuenta con un director britanico con mchos años de experiencia en la enseñanza del idioma en varios importantes colegios e institutos de Asunciòn. Nuestro director tambien cuenta con certificados internacionales que avalan su conocimiento extenso del idioma. El es miembro de IATEFL, (Asociacion Internacional de Profesores de Inglés como una Lengua Extranjera). El profesorado ha sido cuidadosamente seleccionado para asegurar una enseñanza optima.</p>"
         },
         {
           "alias": "purity/components",
@@ -358,6 +358,19 @@
           "_anchor": "msg-box4-i"
         },
         {
+          "_params": {
+            "showMeta": false
+          },
+          "title": "Auspiciamos:<br><br>Centro de Capacitación e Investigación Genealogica<br><br>Paraguay English Language Teachers Special Interest Group",
+          "meta": "",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-j"
+        },
+        {
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -514,7 +527,7 @@
           },
           "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"mailto:zenithenglishcentre@gmail.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zenith English Centre</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": " <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://zenithenglish.com\" target=\"_blank\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#content5-9\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#contacts1-4\">Contact</a></li>"
+          "items": " <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#header2-0\" target=\"_blank\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#content5-9\" target=\"_blank\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#form1-6\" target=\"_blank\">Contact</a></li>"
         }
       ]
     }
