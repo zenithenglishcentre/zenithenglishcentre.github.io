@@ -9,10 +9,11 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 18,
-    "versionPublish": "3.11.1",
+    "uniqCompNum": 19,
+    "versionPublish": "4.10.1",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -34,34 +35,35 @@
           "_name": "header2",
           "_styles": {
             "H1": {
-              "color": "#0275d8"
+              "color": "#000000"
             },
             "P": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-size": "30px"
             }
           },
           "_anchor": "header2-0",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
-            "bgColor": "#bbe8cc",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#ffffff",
-            "contentAlign": "right",
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
+            "showArrow": false,
+            "contentAlign": "right",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1278.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#bbe8cc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.4"
           },
           "title": "Zenith English Centre",
-          "text": "Un instituto diferente con una enseñanza diferente",
+          "text": "<b>Un instituto diferente con una enseñanza diferente</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#header3-1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Learn More / Mas</a>"
         },
         {
@@ -79,25 +81,92 @@
           },
           "_anchor": "content5-2",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.7,
             "overlayColor": "#fff",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": 0.7
           },
           "title": "El Directorio",
           "caption": "<p>El Zenith English Centre es un nuevo concepto en la enseñanza del idioma Inglès. Cuenta con un director britanico con mchos años de experiencia en la enseñanza del idioma en varios importantes colegios e institutos de Asunciòn. Nuestro director tambien cuenta con certificados internacionales que avalan su conocimiento extenso del idioma. El profesorado ha sido cuidadosamente seleccionado para asegurar una enseñanza optima.</p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-h",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/preparation-centre-1-rgb-512-860x235.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "_params": {
+            "showText": false
+          },
+          "text": ""
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-e",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/preparation-centre_1_rgb-515-860x235.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d8f1d5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://www.cambridgeenglish.org/exams-and-tests/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Start a Journey</a>",
+          "title": "Preparacion para los examenes de Cambridge<br><br><br>",
+          "text": "<b>Somos un centro autorizado a preparar candidatos para los examenes de Cambridge.</b>",
+          "_styles": {
+            "H2": {
+              "text-align": "center"
+            },
+            "B": {
+              "font-size": "30px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "alias": "purity/components",
@@ -114,59 +183,25 @@
           },
           "_anchor": "content5-9",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.7,
             "overlayColor": "#fff",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": 0.7
           },
           "title": "Nuestra filosofìa",
           "caption": "<p>La filosofìa del Zenith English Centre se refleja en su lema \"Un instituto diferente con una enseñanza diferente\". Esto implica una enseñanza dinamica e interactiva diseñada a satisfacer las necesidades de cada alumno. Nuestra atencion esta orientada hacia el pleno aprendizaje y utilizacion del idioma por parte de los alumnos en la brevedad posible de acuerdo al programa en estudio. Para ello las clases son personalizadas, donde los grupos de estudio estan conformados por un reducido numero de estudiantes a efectos de lograr una mayor atencion individual.&nbsp;</p>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_styles": {
-            "P": {
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
-            }
-          },
-          "_anchor": "content5-a",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1842x1080.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.7,
-            "overlayColor": "#fff",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "El ambiente",
-          "caption": "<p>Se contempla un ambiente acogedor que va mas alla de una simple clase de Ingles brindando a los estudiantes la posibilidad de usufructuar la denominadas \"Horas de consulta\" en las cuales pueden consultar con los profesores sobre cualquier duda o tema fuera del aula y fuera de la hora de clase tanto como disfrutar o participar en un excelente evento cultural o recreativo. Tambien pueden consultar nuestra amplia biblioteca actual y virtual.</p>"
         },
         {
           "_inherit": "gallery1",
@@ -176,6 +211,7 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": true,
             "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/trained-education-agent-2018-zenith-593x593-593x593.png",
@@ -218,9 +254,15 @@
                 "image": "@PROJECT_PATH@/assets/images/preparation-centre-1-rgb-513-860x235.jpg",
                 "alt": "",
                 "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/logoparaguay-752x763-752x763.png",
+                "image": "@PROJECT_PATH@/assets/images/logoparaguay-752x763.png",
+                "alt": "",
+                "active": false,
+                "title": ""
               }
-            ],
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery2-8",
           "articleLayout": true
@@ -230,56 +272,90 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-e",
+          "_name": "content5",
+          "_styles": {
+            "P": {
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
+            }
+          },
+          "_anchor": "content5-a",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1842x1080.jpg",
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#bbe8cc",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": true,
-            "showTitle": true,
-            "showText": false
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://www.cambridgeenglish.org/exams-and-tests/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Start a Journey</a>",
-          "title": "Preparacion para los examenes de Cambridge",
-          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster."
+          "title": "El ambiente",
+          "caption": "<p>Se contempla un ambiente acogedor que va mas alla de una simple clase de Ingles brindando a los estudiantes la posibilidad de usufructuar la denominadas \"Horas de consulta\" en las cuales pueden consultar con los profesores sobre cualquier duda o tema fuera del aula y fuera de la hora de clase tanto como disfrutar o participar en un excelente evento cultural o recreativo. Tambien pueden consultar nuestra amplia biblioteca actual y virtual.</p>"
         },
         {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-h",
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#feeaba",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/preparation-centre-1-rgb-512-860x235.jpg",
               "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/visitphoto-1104x1872.jpg",
               "link": "",
               "alt": "",
               "title": ""
             },
             "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
             }
           },
-          "_params": {
-            "showText": true
-          },
-          "text": ""
+          "title": "Anglia Official Examinations Centre",
+          "text": "<p>Somos un centro de examinaciones autorizado por Anglia Examinations de Inglaterra. Durante el mes de abril tuvimos la grata visita de la Sra. Estefania Krogulec, International Liaison Officer of Anglia, quien nos brindó mucha informacion y asistencia.</p><p>Estamos orgullosos de poder ser parte del red de centros autorizados de Anglia.</p><p>A través de Anglia organizamos viajes a Inglaterra para nuestros alumnos interesados en visitar a Inglaterra; aprender Inglés y conocer la forma de vida de los ingleses. &nbsp;Dichas viajes, en grupo, se realiza durante los meses de enero y julio.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-i"
         },
         {
           "alias": "purity/components",
@@ -289,17 +365,17 @@
           "_name": "form1",
           "_anchor": "form1-6",
           "_params": {
+            "showTitle": true,
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#bbe8cc",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#bbe8cc",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "Contact Form",
           "form": {
@@ -363,13 +439,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#37383e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#37383e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -398,23 +474,27 @@
           "_name": "menu",
           "_styles": {
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#0275d8"
             },
             ".nav-link": {
               "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "20px"
+            },
+            ".navbar-brand": {
+              "font-size": "25px"
             }
           },
           "_anchor": "menu-7",
           "_params": {
-            "hamburgerColor": "#000000",
-            "sticky": false,
-            "transparent": true,
-            "color": "#000000",
-            "collapsed": true,
             "logo": true,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#fff8e0",
+            "hamburgerColor": "#0275d8"
           },
           "logo": {
             "image": {
@@ -434,7 +514,7 @@
           },
           "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"mailto:zenithenglishcentre@gmail.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Zenith English Centre</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://zenithenglish.com\" target=\"_blank\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#content5-2\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#contacts1-4\">Contact</a></li>"
+          "items": " <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://zenithenglish.com\" target=\"_blank\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#content5-9\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#contacts1-4\">Contact</a></li>"
         }
       ]
     }

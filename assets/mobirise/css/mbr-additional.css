@@ -6,14 +6,24 @@
 
 
 #header2-0 H1 {
-  color: #0275d8;
+  color: #000000;
 }
 #header2-0 P {
   color: #000000;
+  font-size: 30px;
 }
 #content5-2 P {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+}
+#msg-box1-e H2 {
+  text-align: center;
+}
+#msg-box1-e B {
+  font-size: 30px;
+}
+#msg-box1-e P {
+  text-align: center;
 }
 #content5-9 P {
   color: #000000;
@@ -26,8 +36,12 @@
   color: #f1c050;
 }
 #menu-7 .navbar-toggler {
-  color: #000000;
+  color: #0275d8;
 }
 #menu-7 .nav-link {
   font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+#menu-7 .navbar-brand {
+  font-size: 25px;
 }
